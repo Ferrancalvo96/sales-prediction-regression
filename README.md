@@ -1,4 +1,4 @@
-# Proyecto 3 – Regresión lineal para predecir ventas
+# Proyecto 2 – Regresión lineal para predecir ventas
 
 Este proyecto entrena un modelo de regresión lineal para predecir ventas en función del gasto publicitario (TV, radio, prensa).
 
