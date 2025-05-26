@@ -1,25 +1,25 @@
-# Proyecto 2 – Regresión lineal para predecir ventas
+# Sales Prediction Using Linear Regression – Machine Learning Project
 
-Este proyecto entrena un modelo de regresión lineal para predecir ventas en función del gasto publicitario (TV, radio, prensa).
+This project implements a linear regression model to predict **product sales** based on advertising spending across **TV, Radio, and Newspaper** channels.
 
-## Librerías usadas
-- pandas
-- matplotlib
-- scikit-learn
+It is designed as an educational project for my AI master's portfolio, demonstrating the full machine learning pipeline using a small, custom dataset.
 
-## Cómo usarlo
+## 🧠 What it does:
+- Uses historical ad spending data to predict expected sales.
+- Trains a simple linear regression model with `scikit-learn`.
+- Evaluates performance using **Mean Squared Error (MSE)**.
+- Visualizes real vs predicted sales in a scatter plot.
 
-1. Instala las librerías necesarias:
-```
+## 💻 Technologies:
+- Python
+- Pandas
+- Matplotlib
+- Scikit-learn
+
+## 🚀 How to run:
+
+1. Clone the repository or download the files.
+2. Install the required libraries:
+```bash
 pip install pandas matplotlib scikit-learn
-```
 
-2. Ejecuta el script:
-```
-python regresion_ventas.py
-```
-
-3. El script entrenará el modelo, mostrará el error y un gráfico de comparación entre ventas reales y predichas.
-
-## Autor
-Ferran Calvo Eman
